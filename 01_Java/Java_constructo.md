@@ -48,3 +48,120 @@ class Cup {
 	}
 }
 ```
+<br>
+
+> 객체의 초기 상태 > 상황에 따라 달라질 수 있음 <br>
+> 생성자의 `매개변수` 사용 > 다양성 <br>
+
+```java
+main {
+	// 모델명 기본값(M705) + 가격 지정
+	Mouse m4 = new Mouse(35000);
+
+	// 모델명 지정 + 가격 기본값(40000)
+	Mouse m5 = new Mouse("A100");
+
+	// 모델명 지정 + 가격 지정
+	Mouse m6 = new Mouse("A200",30000);
+}
+
+class Mouse {
+	private String model;
+	private int price;
+	
+	// 기본값
+	public Mouse() {
+		this.model = "M705";
+		this.price = 40000;
+	}
+	
+	// 모델명 기본값 + 가격 지정
+	public Mouse(int price) {
+		this.model = "M705";
+		this.price = price;
+	}
+	
+	// 모델명 지정 + 가격 기본값
+	public Mouse(String model) {
+		this.model = model;
+		this.price = 40000;
+	}
+	
+	// 모델명 지정 + 가격 지정
+	public Mouse(String model, int price) {
+		this.model = model;
+		this.price = price;
+	}
+
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+}
+```
+
+> 💡 생성자를 여러개 생성(생성자 오버로딩) > 중복 코드 발생!!! > 줄이자!!! <br>
+> `this();` > 생성자 호출하는 표현
+```java
+main {
+	// 모델명 기본값(M705) + 가격 지정
+	Mouse m4 = new Mouse(35000);
+
+	// 모델명 지정 + 가격 기본값(40000)
+	Mouse m5 = new Mouse("A100");
+
+	// 모델명 지정 + 가격 지정
+	Mouse m6 = new Mouse("A200",30000);
+}
+
+class Mouse {
+	private String model;
+	private int price;
+	
+	// 기본값
+	public Mouse() {
+		// A 호출
+		this("M705", 40000);
+	}
+	
+	// 모델명 기본값 + 가격 지정
+	public Mouse(int price) {
+		// A 호출
+		this("M705", price);
+	}
+	
+	// 모델명 지정 + 가격 기본값
+	public Mouse(String model) {
+		// A 호출
+		this(model, 40000);
+	}
+	
+	// A.
+	// 모델명 지정 + 가격 지정
+	public Mouse(String model, int price) {
+		this.model = model;
+		this.price = price;
+	}
+
+	public String getModel() {
+		return model;
+	}
+	public void setModel(String model) {
+		this.model = model;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+}
+```
