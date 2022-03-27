@@ -54,7 +54,7 @@ class Student {
 
 }
 ```
->변경 후 (static, Student.school)
+>변경 후 (1.static, 2.Student.school)
 ```java
 main {
 	// static 메소드는 접근할 때 앞에 클래스명을 붙임
