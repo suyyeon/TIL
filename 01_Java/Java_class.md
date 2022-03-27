@@ -44,7 +44,7 @@ class Member {
     
 	public String id; // 멤버 변수
 
-	// 멤버 메소드는 구현할 때 "멤버변수"를 "활용"해야 진정한 가치를 가지게 됨
+	// 멤버 메소드는 구현할 때 '멤버변수'를 '활용'해야 진정한 가치를 가지게 됨
 	public void info() {
 		System.out.printf("제 아이디는 %s입니다.\n", id); // 본인의 멤버 변수를 활용 > 상태 활용
 	}
