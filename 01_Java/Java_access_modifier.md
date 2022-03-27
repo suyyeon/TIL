@@ -34,21 +34,21 @@
 
 ```java
 main {
-		SmartPhone s1 = new SmartPhone();
+	SmartPhone s1 = new SmartPhone();
 
-		//쓰기
-		s1.setModel("S22");
-		s1.setColor("white");
-		s1.setPrice(120);
-		s1.setWeight(300); // g
+	//쓰기
+	s1.setModel("S22");
+	s1.setColor("white");
+	s1.setPrice(120);
+	s1.setWeight(300); // g
 
-		System.out.println(s1.getModel());
-		System.out.println(s1.getColor());
-		System.out.println(s1.getPrice());
-		System.out.println(s1.getWeight()); // kg
-		
-		// *** 사용자에게 혼동을 초래함!! > 이 메소드가 왜 있지?
-		// s1.calcWeight(0);
+	System.out.println(s1.getModel());
+	System.out.println(s1.getColor());
+	System.out.println(s1.getPrice());
+	System.out.println(s1.getWeight()); // kg
+
+	// *** 사용자에게 혼동을 초래함!! > 이 메소드가 왜 있지?
+	// s1.calcWeight(0);
 }
 
 class Phone {
