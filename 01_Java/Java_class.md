@@ -52,6 +52,7 @@ class Member {
 
 ## 주의사항
 - 보통 자바에서는 하나의 소스파일에 하나의 클래스만을 정의하는 것이 보통이지만, 하나의 소스파일에 N개의 클래스를 정의하는 것도 가능함
-- 파일안의 N개의 클래스 중 'public'을 가지는 클래스는 딱 <span style="color:red">1개</span>
+- 파일안의 N개의 클래스 중 'public'을 가지는 클래스는 딱 <span style="color:red">1개</span><span style="color:red">red</span>
+
 - public class = 대표 클래스 > 대표 클래스의 이름이 파일명이 됨 
 - 소스파일의 이름과 클래스의 이름이 반드시 동일해야 함 > 위반하면 컴파일 오류 발생
