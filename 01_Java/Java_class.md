@@ -1,5 +1,6 @@
 # 클래스
 - 정의된 내용을 메모리에 실체화 시키는 행동
+- **객체 생성하기**
 - 자료형의 역할을 함 > 변수를 만들 수 있음
 - 데이터 저장의 구조 생성 > 관리 수월(용이) > 가독성 향상
 - 각 요소의 이름 부여 > 각각의 데이터가 어떤 데이터인지 식별이 용이
@@ -19,6 +20,32 @@ class 클래스명 {
 ```java
 클래스명 객체명 = new 생성자();
 ```
+### 3. 객체의 멤버변수 사용
+```java
+객체변수.멤버변수
+```
+<br>
 
+> 가장 많이보이는 class 형태
 
+~~~java
+public static void main(String[] args) {
+		Member m1 = new Member();
+		m1.id = "hong";
+		m1.info();
 
+		Member m2 = new Member();
+		m2.id = "lee";
+		m2.info();
+}
+    
+class Member {
+    
+	public String id; // 멤버 변수
+
+	// 멤버 메소드는 구현할 때 "멤버변수"를 "활용"해야 진정한 가치를 가지게 됨
+	public void info() {
+		System.out.printf("제 아이디는 %s입니다.\n", id); // 본인의 멤버 변수를 활용 > 상태 활용
+	}
+}
+~~~
