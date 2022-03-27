@@ -13,16 +13,8 @@
 
 ## 📌 Class Access Modifier 사용방법
 1.  멤버 변수는 무조건 `private`으로 지정함 > 부품들..
-```java
-class Phone {
-	private String model;
-	private String color;
-	private int price;
-	private int weight;
-}
-```
 2. 인터페이스 역할 메소드 `public`으로 생성함  > 리모컨의 버튼들.. > 객체의 사용방법
-> 단축키 : Alt + Shift + S
+	- 단축키 : Alt + Shift + S
 #### ✅ Setter
 - 쓰기
 - set멤버변수()
@@ -35,6 +27,12 @@ class Phone {
 
 ```java
 class Phone {
+
+	private String model;
+	private String color;
+	private int price;
+	private int weight;
+
 	public void setModel(String model) {
 		this.model = model;
 	}
