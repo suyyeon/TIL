@@ -30,6 +30,7 @@ class 클래스명 {
 
 ~~~java
 public static void main(String[] args) {
+
 		Member m1 = new Member();
 		m1.id = "hong";
 		m1.info();
