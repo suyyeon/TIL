@@ -74,7 +74,7 @@ ArrayList<T> list = new ArrayList<T>();
 5. 요소 삭제
 	- 순수 배열은 요소 삭제 불가능
 	- 컬렉션은 요소 삭제 가능
-	- T remove(int index) > 방 번호를 찾아서 삭제
+	- T remove(int **index**) > 방 번호를 찾아서 삭제
 	- boolean remove(T value) > 값을 찾아서 삭제 > `처음 만나는 요소`를 삭제
 	- 삭제된 방 이후의 모든 요소는 **left shift가 발생**함
 	```java
