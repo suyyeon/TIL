@@ -46,8 +46,7 @@ ArrayList<T> list = new ArrayList<T>();
 	list.add("파인애플");	
 	```
 	
-	- 배열의 원하는 위치에 요소를 추가 > Insert Mode
-	- 삽입(새치기)
+	- 배열의 원하는 위치에 요소를 추가 > Insert Mode > 삽입(새치기)
 	- void add(int index, T value)
 	- 삽입된 방 이후의 모든 요소가 **right shift**가 발생함
 	```java
