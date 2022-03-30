@@ -52,13 +52,18 @@ ArrayList<T> list = new ArrayList<T>();
 	- 삽입된 방 이후의 모든 요소가 **right shift**가 발생함
 	```java
 	list.add(2, "망고");
-	```	
-2. 요소 개수
+	```		
+2. 요소 수정
+	- String set(int index, T newValue)
+	```java
+	list.set(2, "파인애플");
+	```
+3. 요소 개수
 	- int size()
 	```java
 	list.size()
 	```
-3. 요소 접근
+4. 요소 접근
 	- T get(int index)
 	```java
 	list.get(0)
@@ -66,11 +71,6 @@ ArrayList<T> list = new ArrayList<T>();
 	```
 
 
-4. 요소 수정
-	- String set(int index, T newValue)
-	```java
-	list.set(2, "파인애플");
-	```
 5. 요소 삭제
 	- 순수 배열은 요소 삭제 불가능
 	- 컬렉션은 요소 삭제 가능
