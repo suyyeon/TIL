@@ -6,5 +6,5 @@
 - [접근 지정자](https://github.com/suyyeon/TIL/blob/main/01_Java/Java_access_modifier.md)
 - [static](https://github.com/suyyeon/TIL/blob/main/01_Java/Java_static.md)
 
-
-[github markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+---
+[markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
