@@ -24,3 +24,8 @@ Direction d1 = Direction.EAST; // 이 방법을 제일 많이 사용함
 Direction d2 = Direction.valueOf("WEST");
 Direction d3 = Enum.valueOf(Direction.class, "EAST");
 ```
+## 📌 열거형에서 사용되는 메서드
+- String name( ) : 열거형 상수의 이름을 문자열로 반환
+- int ordinal( ) : 열거형 상수가 정의된 순서를 반환(0부터 시작)
+- T valueOf(Class<T> enumType, String name) : 지정된 열거형에서 name과 일치하는 열거형 상수를 반환
+- values( ) : 열거형의 모든 상수를 배열에 담아 반환
