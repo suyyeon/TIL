@@ -46,6 +46,14 @@ ArrayList<T> list = new ArrayList<T>();
 	list.add("포도");
 	list.add("파인애플");	
 	```
+	
+	- 배열의 원하는 위치에 요소를 추가 > Insert Mode
+	- 삽입(새치기)
+	- void add(int index, T value)
+	- 삽입된 방 이후의 모든 요소가 **right shift**가 발생함
+	```java
+	list.add(2, "망고");
+	```	
 2. 요소 개수
 	- int size()
 	```java
@@ -74,16 +82,9 @@ ArrayList<T> list = new ArrayList<T>();
 	list.remove(2);
 	list.remove("파인애플");
 	```	
-6. 요소 추가
-	- 배열의 원하는 위치에 요소를 추가 > Insert Mode
-	- 삽입(새치기)
-	- void add(int index, T value)
-	- 삽입된 방 이후의 모든 요소가 **right shift**가 발생함
-	```java
-	list.add(2, "망고");
-	```	
 
-7. 요소 검색
+
+6. 요소 검색
 	- int indexOf(T value)
 	- int lastIndexOf(T value)
 	- boolean contains(T value)
@@ -92,13 +93,13 @@ ArrayList<T> list = new ArrayList<T>();
 	list.contains("사과")
 	```			
 
-8. 초기화
+7. 초기화
 	- 모든 요소 삭제
 	- void celar()
 	```java
 	list.clear();
 	```		
-9. 빈 배열 확인
+8. 빈 배열 확인
 	- boolean isEmpty()
 	```java
 	list.isEmpty()
