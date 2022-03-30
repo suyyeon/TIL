@@ -42,7 +42,6 @@ ArrayList<T> list = new ArrayList<T>();
 	list.add("바나나");
 	list.add("딸기");
 	list.add("사과");
-	list.add("배");
 	list.add("포도");
 	list.add("파인애플");	
 	```
