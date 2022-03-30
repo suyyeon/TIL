@@ -9,10 +9,10 @@ enum 열거형이름 { 상수명1, 상수명2, ...}
 ```
 ```java
 enum Direction {
-	EAST
-	, SOUTH
-	, WEST
-	, NORTH
+	EAST, 
+	SOUTH,
+	WEST,
+	NORTH
 }
 ```
 ## 📌 열거형 사용
