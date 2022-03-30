@@ -105,3 +105,5 @@ ArrayList<T> list = new ArrayList<T>();
 	list.size() == 0
 	```		  
 
+### 💡 배열(고정) vs ArrayList(불확실)
+- `길이`로 선택해
