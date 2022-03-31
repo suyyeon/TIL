@@ -151,3 +151,8 @@ ArrayList<T> list = new ArrayList<T>();
 	stack.isEmpty()
 	list.size() == 0
 	```		  
+5. 요소 확인(읽기 + 삭제 X) > 꺼내기 X
+	- T peek
+	```java
+	stack.peek()
+	```		  
