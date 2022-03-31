@@ -15,9 +15,9 @@
 ## 📌 종류
 1. List : `순서가 있는` 데이터의 집합, 데이터의 `중복을 허용 O`
 	  - ArrayList
-	  - LinkedList
-	  - Queue
 	  - Stack
+	  - Queue
+	  - LinkedList
 	  - Vector(legacy)
 2. Set : 순서를 유지하지 않는 데이터의 집합, 데이터의 중복을 허용 X  
 	- HashSet
@@ -73,8 +73,6 @@ ArrayList<T> list = new ArrayList<T>();
 	list.get(0)
 	list.get(list.size() - 1) // 마지막 요소
 	```
-
-
 5. 요소 삭제
 	- 순수 배열은 요소 삭제 불가능
 	- 컬렉션은 요소 삭제 가능
@@ -85,8 +83,6 @@ ArrayList<T> list = new ArrayList<T>();
 	list.remove(2);
 	list.remove("파인애플");
 	```	
-
-
 6. 요소 검색
 	- int indexOf(T value)
 	- int lastIndexOf(T value)
@@ -144,7 +140,6 @@ ArrayList<T> list = new ArrayList<T>();
 	```java
 	stack.pop()
 	```
-	
 4. 빈 배열 확인
 	- boolean isEmpty()
 	```java
@@ -156,7 +151,6 @@ ArrayList<T> list = new ArrayList<T>();
 	```java
 	stack.peek()
 	```	
-
 
 ## 3. Queue
 - FIFO(선입선출)
@@ -183,8 +177,7 @@ ArrayList<T> list = new ArrayList<T>();
 	- T poll
 	```java
 	queue.poll()
-	```
-	
+	```	
 4. 빈 배열 확인
 	- boolean isEmpty()
 	```java
