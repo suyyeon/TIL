@@ -155,4 +155,49 @@ ArrayList<T> list = new ArrayList<T>();
 	- T peek
 	```java
 	stack.peek()
+	```	
+
+
+## 3. Queue
+- FIFO(선입선출)
+- 저장소에 먼저 들어간 요소가 먼저 나옴
+- ex) 줄서기
+
+### ✅ 사용법
+1. 요소 추가
+	- boolean add(T value)
+	```java
+	queue.add("빨강");
+	queue.add("파랑");
+	queue.add("노랑");
+	```
+2. 요소 개수
+	- int size()
+	```java
+	queue.size()
+	```
+3. 요소 접근(꺼내기)
+	- 복구 불가능 
+	- 첫번째 요소부터 꺼내짐
+	- 요소가 비어있어도 에러 발생 X
+	- T poll
+	```java
+	queue.poll()
+	```
+	
+4. 빈 배열 확인
+	- boolean isEmpty()
+	```java
+	queue.isEmpty()
+	list.size() == 0
 	```		  
+5. 요소 확인(읽기 + 삭제 X, 꺼내기 X)
+- T peek
+	```java
+	queue.peek()
+	```	
+5. 요소 초기화
+- T clear
+	```java
+	queue.clear();
+	```	
