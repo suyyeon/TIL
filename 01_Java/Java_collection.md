@@ -1,5 +1,5 @@
 
-*220330(수)*
+*220330(수)~220331(목)*
 # 📌 Java Collection Framework(JCF)
 - (향상된) `배열`
 - 자료 구조
@@ -15,7 +15,7 @@
 ## 📌 종류
 1. List : `순서가 있는` 데이터의 집합, 데이터의 `중복을 허용 O`
 	  - ArrayList
-	  -  LinkedList
+	  - LinkedList
 	  - Queue
 	  - Stack
 	  - Vector(legacy)
@@ -31,7 +31,7 @@
 
 # 📌 List 계열
 ![](https://user-images.githubusercontent.com/97590398/160878474-15625dfd-8415-466c-8a2a-cfc0cb596ec3.png)
-## 1️⃣ ArrayList 클래스
+## 1️. ArrayList 클래스
 ```java
 ArrayList<T> list = new ArrayList<T>();
 ```
@@ -116,3 +116,5 @@ ArrayList<T> list = new ArrayList<T>();
 - 가비지 발생 > 비용 발생
 - 배열 복사 발생 > 비용 발생
 - `해결방법` ArrayList의 초기 길이를 지정하면 됨
+---
+## 2. Stack
