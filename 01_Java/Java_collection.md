@@ -2,7 +2,7 @@
 *220330(수)~220331(목)*
 # 📌 Java Collection Framework(JCF)
 - (향상된) `배열`
-- 자료 구조
+- 자료 구조 : 데이터를 저장하는 공간의 구조
 - 기존의 순수 배열의 성능 향상(입출력), 사용법을 개량 > 클래스
 - 내부에 순수 배열을 가지고 있음 > public 메소드들을 통해서 성능 or 사용법 개량
 - `길이 가변` > 방의 개수를 마음대로 늘리고 줄이는게 가능
@@ -117,4 +117,37 @@ ArrayList<T> list = new ArrayList<T>();
 - 배열 복사 발생 > 비용 발생
 - `해결방법` ArrayList의 초기 길이를 지정하면 됨
 ---
+### 💡 ADT(Adstract Data Type, 추상적 자료형)
+- Stack, Queue
+- 물리적인 특성을 가지는것이 아니라 사용법에 특성을 가진다.
 ## 2. Stack
+- LIFO(후입선출)
+- 저장소에 나중에 들어간 요소가 먼저 나옴
+- ex) 메모리 구조(Stack), 되돌리기(Ctrl+Z), 다시하기(Ctrl+Y)
+### ✅ 사용법
+1. 요소 추가
+	- T push(T value)
+	```java
+	stack.push("빨강");
+	stack.push("파랑");
+	stack.push("노랑");
+	```
+2. 요소 개수
+	- int size()
+	```java
+	stack.size()
+	```
+3. 요소 접근(꺼내기 == 삭제)
+	- 복구 불가능 
+	- 마지막 요소부터 꺼내짐
+	- T pop
+	```java
+	stack.pop()
+	```
+	
+4. 빈 배열 확인
+	- boolean isEmpty()
+	```java
+	stack.isEmpty()
+	list.size() == 0
+	```		  
