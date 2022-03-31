@@ -31,7 +31,7 @@
 
 # 📌 List 계열
 ![](https://user-images.githubusercontent.com/97590398/160878474-15625dfd-8415-466c-8a2a-cfc0cb596ec3.png)
-## 1️. ArrayList 클래스
+## 1️. ArrayList
 ```java
 ArrayList<T> list = new ArrayList<T>();
 ```
