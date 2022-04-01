@@ -195,7 +195,7 @@ ArrayList<T> list = new ArrayList<T>();
 	queue.clear();
 	```	
 
-# 📌 Map
+# 📌 Map 계열
 ## 1. HaspMap
 
 ### ✅ 사용법
