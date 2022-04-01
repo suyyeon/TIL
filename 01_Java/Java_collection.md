@@ -1,5 +1,5 @@
 
-*220330(수)~220331(목)*
+*220330(수)~220401(월)*
 # 📌 Java Collection Framework(JCF)
 - (향상된) `배열`
 - 자료 구조 : 데이터를 저장하는 공간의 구조
@@ -194,3 +194,50 @@ ArrayList<T> list = new ArrayList<T>();
 	```java
 	queue.clear();
 	```	
+
+# 📌 Map
+## 1. HaspMap
+
+### ✅ 사용법
+1. 요소 추가
+	- V put(K key, V value)
+	```java
+	map.put("국어", 100);
+	map.put("영어", 90);
+	map.put("수학", 80);
+	```
+2. 요소 개수
+	- int size()
+	```java
+	map.size()
+	```
+3. 요소 읽기
+	- V get(k key)
+	```java
+	map.get()
+	```
+4. 일괄 탐색 > for > 불가능
+	
+5. 요소 수정
+	- V put(k key, V value)
+	```java
+	map.put()
+	```	
+6. 요소 검색
+	 - boolean containsKey(K key)
+	 - boolean containsValue(V value)
+	```java
+	map.containsKey()
+	map.containsValue()
+	```	
+7. 요소 삭제
+	- V remove(K key)
+	```java
+	map.remove();
+	```	 
+
+8. 초기화
+	- V clear()
+	```java
+	map.clear();
+	```
