@@ -20,10 +20,10 @@
 	  - Queue
 	  - LinkedList
 	  - Vector(legacy)
-2. Set : 순서를 유지하지 않는 데이터의 집합, 데이터의 중복을 허용 X  
+2. Set : `순서를 유지하지 않는` 데이터의 집합, 데이터의 `중복을 허용 X`  
 	- HashSet
 	- TreeSet
-3. Map : (key, value)의 piar으로 이루어진 데이터의 집합. 순서는 유지되지 않으며, 키는 중복 X, 값은 중복 O
+3. Map : `(key, value)`의 piar으로 이루어진 데이터의 집합. `순서는 유지되지 않으며, 키는 중복 X, 값은 중복 O`
 	- HashMap
 	- TreeMap
 	- HashTable(legacy)
@@ -195,6 +195,33 @@ ArrayList<T> list = new ArrayList<T>();
 	```java
 	queue.clear();
 	```	
+# 📌 Set 계열
+- 순서 X, 중복 X
+## 1. HashSet
+
+### ✅ 사용법
+1. 요소 추가
+	- boolean add(T value)
+	```java
+	set.add("사과");
+	set.add("바나나");
+	set.add("딸기");
+	```
+2. 요소 개수
+	- set size()
+	```java
+	set.size()
+	```
+3. 요소 삭제
+	- V remove(K key)
+	```java
+	set.remove();
+	```	 
+4. 요소 읽기
+	- Iterator<T> iterator()
+	```java
+	Iterator<String> iter = set.iterator();
+	```
 
 # 📌 Map 계열
 ## 1. HaspMap
