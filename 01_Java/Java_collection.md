@@ -199,7 +199,7 @@ ArrayList<T> list = new ArrayList<T>();
 ## 1. HashSet
 ![](https://user-images.githubusercontent.com/97590398/161434599-d8a81069-62a3-49f6-a7c3-c5661d3f6a8b.png)
 - 같은 문자열을 갖는 String 객체는 동등한 객체로 간주됨.
-### ✅ 사용
+### ✅ 사용법
 1. 요소 추가
 	- boolean add(T value)
 	```java
