@@ -191,7 +191,7 @@ ArrayList<T> list = new ArrayList<T>();
 	queue.peek()
 	```	
 5. 요소 초기화
-- T clear
+- T clear                           
 	```java
 	queue.clear();
 	```	
