@@ -6,5 +6,7 @@
 - [접근 지정자](https://github.com/suyyeon/TIL/blob/main/01_Java/Java_access_modifier.md)
 - [static](https://github.com/suyyeon/TIL/blob/main/01_Java/Java_static.md)
 
+### 02_DB
+> Oracle Database
 ---
 [markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
