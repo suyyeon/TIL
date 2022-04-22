@@ -248,3 +248,30 @@ where comm is null;
 
 ![](./images/2022-04-20-22-58-35.png)
 
+## IF문 (DECODE)
+> 부서 번호가 10번이면 300, 부서 번호가 20번이면 400, 부서번호가 10번, 20번이 아니면 0
+```SQL
+SELECT ename, deptno, DECODE(deptno,10,300,20,400,0) as 보너스
+FROM emp;
+```
+```SQL
+SELECT ename, mod(empno,2), DECODE(mod(empno,2),0,'짝수',1,'홀수') as 보너스
+FROM emp;
+```
+> 직업이 SALESMAN이면 보너스 5000, 나머지 직업은 보너스 2000
+```SQL
+SELECT ename, job, DECODE(job, 'SALESMAN', 5000, 2000) as 보너스
+FROM emp;
+```
+
+## IF문 (CASE)
+- DECODE 다른점 : DECODE는 등호(=) 비교만 가능하지만, CASE는 등호(=), 부등호(>=, <=, >, <) 둘 다 가능
+```SQL
+SELECT ename, job,sal , CASE WHEN sal >= 3000 THEN 500 -- 월급이 3000 이상이면 500
+                             WHEN sal >= 2000 THEN 300 -- 월급이 2000 이상이면 300
+                             WHEN sal >= 1000 THEN 200 -- 월급이 1000 이상이면 200
+                             ELSE  0                   -- 해당 x 0
+                        END AS BONUS
+  FROM emp
+  WHERE job IN ('SALESMAN','ANALYST');
+```
