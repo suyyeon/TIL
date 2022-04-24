@@ -238,15 +238,19 @@ from emp
 where comm is null;
 ```
 
+### NULL 함수
+- NVL 함수: NULL 데이터를 처리하는 함수
+- NVL(필드, 대체값)
+  - NVL(comm,0)은 comm을 출력할 때 comm이 NULL이면 0으로 출력하는 함수
+
+- NVL2(필드, 널아닐때의 값, 널일때의 값)
+
 ||NVL 함수 X|NVL 함수 O|
 |------|----|----|
 |SQL|SELECT sal + comm<br> FROM emp <br> WHERE ename = 'KING';|SELECT sal + NVL(comm,0)<br> FROM emp <br> WHERE ename = 'KING';|
 |결과|NULL이 출력됨|5000|
-- NVL 함수: NULL 데이터를 처리하는 함수
 
-          - NVL(comm,0)은 comm을 출력할 때 comm이 NULL이면 0으로 출력하는 함수
-
-![](./images/2022-04-20-22-58-35.png)
+<img src="./images/2022-04-20-22-58-35.png" height="50%" width="80%">
 
 ## IF문 (DECODE)
 > 부서 번호가 10번이면 300, 부서 번호가 20번이면 400, 부서번호가 10번, 20번이 아니면 0
