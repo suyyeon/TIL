@@ -1,4 +1,5 @@
 # TIL
+## Markdown 정리 📃
 ### 01_Java
 > 학습한 내용 정리 및 복습
 - [클래스](https://github.com/suyyeon/TIL/blob/main/01_Java/Java_class.md)
@@ -12,7 +13,7 @@
 - [SELECT문](https://github.com/suyyeon/TIL/blob/main/02_DB/SELECT.md)
 - [함수](https://github.com/suyyeon/TIL/blob/main/02_DB/%ED%95%A8%EC%88%98.md)
 
-
+## Blog 포스트 정리 💻
 
 
 
