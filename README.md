@@ -15,8 +15,9 @@
 
 ## Blog 포스트 정리 💻
 
-
-
+### DB
+  - [View, Union](https://velog.io/@suyyeon/Oracle-SQL-View)
+  - [Transaction](https://velog.io/@suyyeon/Oracle-SQL-Transaction)
 
 
 
