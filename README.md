@@ -19,7 +19,7 @@
   - [View, Union](https://velog.io/@suyyeon/Oracle-SQL-View)
   - [Transaction](https://velog.io/@suyyeon/Oracle-SQL-Transaction)
   - [Rownum](https://velog.io/@suyyeon/Oracle-SQL-Rownum)
-
+  - [PL/SQL](https://velog.io/@suyyeon/Oracle-SQL-PLSQL)
 
 ---
 [markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
