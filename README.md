@@ -20,6 +20,6 @@
   - [Transaction](https://velog.io/@suyyeon/Oracle-SQL-Transaction)
   - [Rownum](https://velog.io/@suyyeon/Oracle-SQL-Rownum)
   - [PL/SQL](https://velog.io/@suyyeon/Oracle-SQL-PLSQL)
-
+  - [[JDBC] Statement, ResultSet, PreparedStatement, CallableStatement](https://velog.io/@suyyeon/JDBC-Statement)
 ---
 [markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
