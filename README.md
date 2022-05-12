@@ -21,5 +21,9 @@
   - [Rownum](https://velog.io/@suyyeon/Oracle-SQL-Rownum)
   - [PL/SQL](https://velog.io/@suyyeon/Oracle-SQL-PLSQL)
   - [[JDBC] Statement, ResultSet, PreparedStatement, CallableStatement](https://velog.io/@suyyeon/JDBC-Statement)
+
+### 👀
+- [Putty | 설정하기](https://velog.io/@suyyeon/Putty-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
+
 ---
 [markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
