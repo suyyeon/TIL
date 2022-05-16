@@ -21,7 +21,7 @@
   - [Rownum](https://velog.io/@suyyeon/Oracle-SQL-Rownum)
   - [PL/SQL](https://velog.io/@suyyeon/Oracle-SQL-PLSQL)
   - [[JDBC] Statement, ResultSet, PreparedStatement, CallableStatement](https://velog.io/@suyyeon/JDBC-Statement)
-  - [Oracle SQL | DCL, 권한, Role(역할)](https://velog.io/@suyyeon/Oracle-SQL-DCL-%EA%B6%8C%ED%95%9C-Role%EC%97%AD%ED%95%A0)
+  - [DCL, 권한, Role(역할)](https://velog.io/@suyyeon/Oracle-SQL-DCL-%EA%B6%8C%ED%95%9C-Role%EC%97%AD%ED%95%A0)
 
 
 
