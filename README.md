@@ -26,6 +26,9 @@
 
 ### Algorithm
 
+### Web
+  - [환경셋팅](https://velog.io/@suyyeon/%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD)
+
 
 ### 👀
 - [Putty | 설정하기](https://velog.io/@suyyeon/Putty-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0)
